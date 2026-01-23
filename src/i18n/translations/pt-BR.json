@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "title": "DESENVOLVEDORA",
+    "subtitle": "Immersive Experience Developer",
+    "systemInit": "INICIANDO SISTEMA...",
+    "description": "Transformando ideias em <1>experiências digitais únicas</1>. código limpo, design impactante, atenção e cuidado aos detalhes.",
+    "btnProjects": "VER PROJETOS",
+    "btnContact": "INICIAR CONTATO",
+    "statusLabel": "STATUS:",
+    "statusValue": "ONLINE",
+    "latencyLabel": "LATENCY:",
+    "latencyValue": "12ms",
+    "systemLabel": "SYSTEM:",
+    "systemValue": "READY"
+  },
+  "about": {
+    "title": "SOBRE.exe",
+    "initializing": "INICIALIZANDO PERFIL...",
+    "paragraph1": "Desenvolvedora que transforma ideias em interfaces claras e eficientes, equilibrando performance, código limpo e detalhes que fazem a experiência acontecer. [<1>funcionalidade excelente</1> - <2>visual impactante</2>.]",
+    "profileLoaded": "PERFIL_CARREGADO_COM_SUCESSO",
+    "stats": {
+      "experience": "ANOS_EXP",
+      "projects": "PROJETOS",
+      "dedication": "DEDICACAO"
+    }
+  },
+  "skills": {
+    "sectionComment": "// SYSTEM.SKILLS",
+    "title": "HABILIDADES",
+    "categories": {
+      "frontend": "FRONTEND",
+      "backend": "BACKEND",
+      "tools": "TOOLS",
+      "design": "DESIGN"
+    }
+  },
+  "projects": {
+    "sectionCode": "[MISSION_ARCHIVES]",
+    "title": "PROJETOS",
+    "subtitle": "Arquivo de Missões",
+    "ecommerce": {
+      "title": "E-COMMERCE_PLATFORM",
+      "description": "Plataforma completa com painel administrativo, pagamentos integrados e sistema de avaliações em tempo real.",
+      "challenge": "Sistema de checkout em tempo real com alta disponibilidade",
+      "impact": "+40% conversões"
+    },
+    "dashboard": {
+      "title": "DASHBOARD_ANALYTICS",
+      "description": "Dashboard interativo para visualização de métricas em tempo real com gráficos animados e filtros avançados.",
+      "challenge": "Otimizar renderização de grandes volumes de dados",
+      "impact": "60fps com 100k+ datapoints"
+    },
+    "social": {
+      "title": "SOCIAL_MEDIA_APP",
+      "description": "Aplicação social com feed infinito, chat em tempo real, notificações push e upload de mídia otimizado.",
+      "challenge": "Sincronização em tempo real entre dispositivos",
+      "impact": "10k+ usuários ativos"
+    },
+    "challengeLabel": "CHALLENGE:",
+    "impactLabel": "IMPACT:",
+    "btnDemo": "DEMO",
+    "btnCode": "CODE"
+  },
+  "contact": {
+    "sectionCode": "[COMMUNICATION_PROTOCOL]",
+    "title": "INICIAR <1>TRANSMISSÃO</1>",
+    "statusPrefix": "CANAL ABERTO | STATUS:",
+    "statusValue": "ONLINE",
+    "message": "Estou sempre em busca de <1>novos desafios</1>, conhecimento e aventuras perigosamente boas. Se você tem um projeto interessante ou quer trocar ideias sobre tecnologia, <2>vamos cruzar órbitas</2>!",
+    "quote": "\"Busquem conhecimento\" — ET Bilu",
+    "socialLabels": {
+      "github": "GITHUB",
+      "linkedin": "LINKEDIN",
+      "twitter": "TWITTER",
+      "email": "EMAIL"
+    },
+    "btnSend": "ENVIAR MENSAGEM",
+    "footer": "Desenvolvido com <1>❤</1> e muito café ☕",
+    "eof": "EOF // END_OF_FILE"
+  },
+  "achievements": {
+    "title": "Conquistas & <1>Diferenciais</1>",
+    "certifications": {
+      "title": "Certificações",
+      "items": [
+        "AWS Certified Developer",
+        "Meta Front-End Professional",
+        "Google UX Design"
+      ]
+    },
+    "differentials": {
+      "title": "Diferenciais",
+      "items": [
+        "Código limpo e escalável",
+        "Design systems expert",
+        "Performance optimization"
+      ]
+    },
+    "experience": {
+      "title": "Experiência",
+      "items": [
+        "Startups de alto crescimento",
+        "Projetos internacionais",
+        "Liderança técnica"
+      ]
+    },
+    "recognition": {
+      "title": "Reconhecimento",
+      "items": [
+        "Top contributor GitHub",
+        "Speaker em eventos tech",
+        "Mentor de desenvolvedores"
+      ]
+    }
+  },
+  "languageSwitcher": {
+    "label": "IDIOMA",
+    "portuguese": "PT",
+    "english": "EN"
+  }
+}

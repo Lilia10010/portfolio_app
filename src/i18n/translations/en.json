@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "title": "DEVELOPER",
+    "subtitle": "Immersive Experience Developer",
+    "systemInit": "INITIALIZING SYSTEM...",
+    "description": "Transforming ideas into <1>unique digital experiences</1>. clean code, impactful design, attention to detail.",
+    "btnProjects": "VIEW PROJECTS",
+    "btnContact": "INITIATE CONTACT",
+    "statusLabel": "STATUS:",
+    "statusValue": "ONLINE",
+    "latencyLabel": "LATENCY:",
+    "latencyValue": "12ms",
+    "systemLabel": "SYSTEM:",
+    "systemValue": "READY"
+  },
+  "about": {
+    "title": "ABOUT.exe",
+    "initializing": "INITIALIZING PROFILE...",
+    "paragraph1": "Developer who transforms ideas into clear and efficient interfaces, balancing performance, clean code and details that make the experience happen. [<1>excellent functionality</1> - <2>impactful visuals</2>.]",
+    "profileLoaded": "PROFILE_LOADED_SUCCESSFULLY",
+    "stats": {
+      "experience": "YEARS_EXP",
+      "projects": "PROJECTS",
+      "dedication": "DEDICATION"
+    }
+  },
+  "skills": {
+    "sectionComment": "// SYSTEM.SKILLS",
+    "title": "SKILLS",
+    "categories": {
+      "frontend": "FRONTEND",
+      "backend": "BACKEND",
+      "tools": "TOOLS",
+      "design": "DESIGN"
+    }
+  },
+  "projects": {
+    "sectionCode": "[MISSION_ARCHIVES]",
+    "title": "PROJECTS",
+    "subtitle": "Mission Archive",
+    "ecommerce": {
+      "title": "E-COMMERCE_PLATFORM",
+      "description": "Complete platform with admin panel, integrated payments, and real-time review system.",
+      "challenge": "Real-time checkout system with high availability",
+      "impact": "+40% conversions"
+    },
+    "dashboard": {
+      "title": "DASHBOARD_ANALYTICS",
+      "description": "Interactive dashboard for real-time metrics visualization with animated charts and advanced filters.",
+      "challenge": "Optimize rendering of large data volumes",
+      "impact": "60fps with 100k+ datapoints"
+    },
+    "social": {
+      "title": "SOCIAL_MEDIA_APP",
+      "description": "Social application with infinite feed, real-time chat, push notifications, and optimized media upload.",
+      "challenge": "Real-time synchronization across devices",
+      "impact": "10k+ active users"
+    },
+    "challengeLabel": "CHALLENGE:",
+    "impactLabel": "IMPACT:",
+    "btnDemo": "DEMO",
+    "btnCode": "CODE"
+  },
+  "contact": {
+    "sectionCode": "[COMMUNICATION_PROTOCOL]",
+    "title": "INITIATE <1>TRANSMISSION</1>",
+    "statusPrefix": "CHANNEL OPEN | STATUS:",
+    "statusValue": "ONLINE",
+    "message": "I’m always seeking <1>new challenges</1>, knowledge, and dangerously good adventures. If you have an interesting project or want to talk tech, <2>let’s cross orbits</2>!",
+    "quote": "\"Seek knowledge\" — ET Bilu",
+    "socialLabels": {
+      "github": "GITHUB",
+      "linkedin": "LINKEDIN",
+      "twitter": "TWITTER",
+      "email": "EMAIL"
+    },
+    "btnSend": "SEND MESSAGE",
+    "footer": "Built with <1>❤</1> and lots of coffee ☕",
+    "eof": "EOF // END_OF_FILE"
+  },
+  "achievements": {
+    "title": "Achievements & <1>Differentials</1>",
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        "AWS Certified Developer",
+        "Meta Front-End Professional",
+        "Google UX Design"
+      ]
+    },
+    "differentials": {
+      "title": "Differentials",
+      "items": [
+        "Clean and scalable code",
+        "Design systems expert",
+        "Performance optimization"
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "items": [
+        "High-growth startups",
+        "International projects",
+        "Technical leadership"
+      ]
+    },
+    "recognition": {
+      "title": "Recognition",
+      "items": [
+        "Top contributor GitHub",
+        "Speaker at tech events",
+        "Developer mentor"
+      ]
+    }
+  },
+  "languageSwitcher": {
+    "label": "LANGUAGE",
+    "portuguese": "PT",
+    "english": "EN"
+  }
+}
