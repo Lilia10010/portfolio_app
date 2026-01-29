@@ -38,26 +38,26 @@
     "sectionCode": "[MISSION_ARCHIVES]",
     "title": "PROJETOS",
     "subtitle": "Arquivo de Missões",
-    "ecommerce": {
-      "title": "E-COMMERCE_PLATFORM",
-      "description": "Plataforma completa com painel administrativo, pagamentos integrados e sistema de avaliações em tempo real.",
-      "challenge": "Sistema de checkout em tempo real com alta disponibilidade",
-      "impact": "+40% conversões"
-    },
     "dashboard": {
-      "title": "DASHBOARD_ANALYTICS",
-      "description": "Dashboard interativo para visualização de métricas em tempo real com gráficos animados e filtros avançados.",
-      "challenge": "Otimizar renderização de grandes volumes de dados",
-      "impact": "60fps com 100k+ datapoints"
+      "title": "VISUAL_ANALYSIS",
+      "description": "Painel para visualização e análise de dados, incluindo métricas e gráficos.",
+      "challenge": "Projetar uma estrutura de visualização de dados eficiente e clara.",
+      "impact": "Técnicas de visualização de dados e painéis analíticos."
+    },
+    "discord": {
+      "title": "CONNECT_DISCORD",
+      "description": "Plataforma que permite aos jogadores encontrar e publicar anúncios para formar equipes ou participar de partidas.",
+      "challenge": "Lidar com a renderização de dados em tempo real e interações do usuário.",
+      "impact": "Comunicação em tempo real e arquitetura de front-end escalável."
     },
     "social": {
-      "title": "SOCIAL_MEDIA_APP",
-      "description": "Aplicação social com feed infinito, chat em tempo real, notificações push e upload de mídia otimizado.",
-      "challenge": "Sincronização em tempo real entre dispositivos",
-      "impact": "10k+ usuários ativos"
+      "title": "SERVICE_REVIEW",
+      "description": "Aplicativo para avaliação de serviços usando um sistema de 1 a 5 estrelas.",
+      "challenge": "Desenvolver um sistema de feedback intuitivo e fácil de usar.",
+      "impact": "Sistemas de feedback do usuário e design focado na usabilidade."
     },
-    "challengeLabel": "CHALLENGE:",
-    "impactLabel": "IMPACT:",
+    "challengeLabel": "DESAFIO:",
+    "impactLabel": "FOCO:",
     "btnDemo": "DEMO",
     "btnCode": "CODE"
   },

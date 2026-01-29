@@ -12,31 +12,61 @@ const Projects = () => {
 
   const projects = [
     {
-      title: t("projects.ecommerce.title"),
-      description: t("projects.ecommerce.description"),
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      challenge: t("projects.ecommerce.challenge"),
-      impact: t("projects.ecommerce.impact"),
-      emoji: "🛍️",
-      color: "var(--neon-cyan)",
-    },
-    {
       title: t("projects.dashboard.title"),
       description: t("projects.dashboard.description"),
-      technologies: ["Next.js", "TypeScript", "D3.js", "PostgreSQL"],
+      technologies: [
+        "React",
+        "TypeScript",
+        "React Query",
+        "Axios",
+        "Vitest",
+        "Jest",
+        "Tailwind CSS",
+      ],
       challenge: t("projects.dashboard.challenge"),
       impact: t("projects.dashboard.impact"),
       emoji: "📊",
+      color: "var(--neon-cyan)",
+      linkCode: "https://github.com/Lilia10010/visual-analysiss",
+      linkDemo: "/#",
+    },
+    {
+      title: t("projects.discord.title"),
+      description: t("projects.discord.description"),
+      technologies: [
+        "React",
+        "React Native",
+        "Node",
+        "TypeScript",
+        "Expo",
+        "Expo Notifications",
+        "Express",
+        " Prisma (SQLite)",
+        "Tailwind CSS",
+      ],
+      challenge: t("projects.discord.challenge"),
+      impact: t("projects.discord.impact"),
+      emoji: "🎮",
       color: "var(--neon-pink)",
+      linkCode: "https://github.com/Lilia10010/appConectarDiscord",
+      linkDemo: "/#",
     },
     {
       title: t("projects.social.title"),
       description: t("projects.social.description"),
-      technologies: ["React Native", "Firebase", "Redux", "WebSockets"],
+      technologies: [
+        "NextJS",
+        "TypeScript",
+        "Storybook",
+        "Axios",
+        "Styled Components",
+      ],
       challenge: t("projects.social.challenge"),
       impact: t("projects.social.impact"),
       emoji: "💬",
       color: "var(--neon-purple)",
+      linkCode: "https://github.com/Lilia10010/app-de-avaliacao",
+      linkDemo: "/#",
     },
   ];
 
@@ -232,7 +262,10 @@ const Projects = () => {
 
               {/* Action Buttons */}
               <div style={{ display: "flex", gap: "var(--spacing-sm)" }}>
-                <button
+                <a
+                  href={project.linkDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-neon"
                   style={{
                     fontSize: "var(--font-size-xs)",
@@ -242,12 +275,16 @@ const Projects = () => {
                     gap: "var(--spacing-xs)",
                     borderColor: project.color,
                     color: project.color,
+                    textDecoration: "none",
                   }}
                 >
                   <ExternalLink size={14} />
                   {t("projects.btnDemo")}
-                </button>
-                <button
+                </a>
+                <a
+                  href={project.linkCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-neon"
                   style={{
                     fontSize: "var(--font-size-xs)",
@@ -257,11 +294,12 @@ const Projects = () => {
                     gap: "var(--spacing-xs)",
                     borderColor: "var(--neon-cyan)",
                     color: "var(--neon-cyan)",
+                    textDecoration: "none",
                   }}
                 >
                   <Github size={14} />
                   {t("projects.btnCode")}
-                </button>
+                </a>
               </div>
 
               {/* Scan line effect */}

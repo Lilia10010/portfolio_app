@@ -135,6 +135,7 @@ const Contact = () => {
                 color: "var(--neon-purple)",
                 fontStyle: "italic",
                 fontWeight: "600",
+                marginBottom: "20px",
               }}
             >
               {t("contact.quote")}
@@ -240,12 +241,12 @@ const Contact = () => {
               color: "rgba(0, 243, 255, 0.5)",
             }}
           >
-            <p>
-              {t("contact.footer").split("<1>")[0]}
+            <p className="h-1 sm:h-7">
+              {/* {t("contact.footer").split("<1>")[0]}
               <span className="neon-pink">
                 {t("contact.footer").split("<1>")[1].split("</1>")[0]}
               </span>
-              {t("contact.footer").split("</1>")[1]}
+              {t("contact.footer").split("</1>")[1]} */}
             </p>
             <div
               className="hex-code"

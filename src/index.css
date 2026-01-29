@@ -396,15 +396,17 @@ p {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: var(--neon-pink);
+  /* background: var(--neon-pink); */
   transition: var(--transition-smooth);
   z-index: -1;
 }
 
 .btn-neon:hover {
-  color: var(--black-deep);
+  /* color: var(--black-deep); */
   box-shadow: var(--glow-pink);
   transform: translateY(-2px);
+
+  background: rgba(222, 222, 222, 0.09);
 }
 
 .btn-neon:hover::before {

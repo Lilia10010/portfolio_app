@@ -1,35 +1,31 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import ptBR from './translations/pt-BR.json';
-import en from './translations/en.json';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import ptBR from "./translations/pt-BR.json";
+import en from "./translations/en.json";
 
-// Get saved language from localStorage or default to Portuguese
-const savedLanguage = localStorage.getItem('language') || 'pt-BR';
+const savedLanguage = localStorage.getItem("language") || "pt-BR";
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources: {
-      'pt-BR': {
-        translation: ptBR
-      },
-      'en': {
-        translation: en
-      }
+i18n.use(initReactI18next).init({
+  resources: {
+    "pt-BR": {
+      translation: ptBR,
     },
-    lng: savedLanguage,
-    fallbackLng: 'pt-BR',
-    interpolation: {
-      escapeValue: false // React already escapes values
+    en: {
+      translation: en,
     },
-    react: {
-      useSuspense: false
-    }
-  });
+  },
+  lng: savedLanguage,
+  fallbackLng: "pt-BR",
+  interpolation: {
+    escapeValue: false,
+  },
+  react: {
+    useSuspense: false,
+  },
+});
 
-// Save language to localStorage whenever it changes
-i18n.on('languageChanged', (lng) => {
-  localStorage.setItem('language', lng);
+i18n.on("languageChanged", (lng) => {
+  localStorage.setItem("language", lng);
 });
 
 export default i18n;

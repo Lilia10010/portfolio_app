@@ -38,26 +38,26 @@
     "sectionCode": "[MISSION_ARCHIVES]",
     "title": "PROJECTS",
     "subtitle": "Mission Archive",
-    "ecommerce": {
-      "title": "E-COMMERCE_PLATFORM",
-      "description": "Complete platform with admin panel, integrated payments, and real-time review system.",
-      "challenge": "Real-time checkout system with high availability",
-      "impact": "+40% conversions"
-    },
     "dashboard": {
-      "title": "DASHBOARD_ANALYTICS",
-      "description": "Interactive dashboard for real-time metrics visualization with animated charts and advanced filters.",
-      "challenge": "Optimize rendering of large data volumes",
-      "impact": "60fps with 100k+ datapoints"
+      "title": "VISUAL_ANALYSIS",
+      "description": "Dashboard for data visualization and analysis, including metrics and charts.",
+      "challenge": "Designing an efficient and clear data visualization structure.",
+      "impact": "Data visualization techniques and analytical dashboards."
+    },
+    "discord": {
+      "title": "CONNECT_DISCORD",
+      "description": "Platform that allows players to find and post ads to form teams or join matches.",
+      "challenge": "Handling real-time data rendering and user interactions.",
+      "impact": "Real-time communication and scalable frontend architecture."
     },
     "social": {
-      "title": "SOCIAL_MEDIA_APP",
-      "description": "Social application with infinite feed, real-time chat, push notifications, and optimized media upload.",
-      "challenge": "Real-time synchronization across devices",
-      "impact": "10k+ active users"
+      "title": "SERVICE_REVIEW",
+      "description": "Application for rating services using a 1 to 5 star system.",
+      "challenge": "Designing an intuitive and user-friendly feedback system.",
+      "impact": "User feedback systems and usability-focused design."
     },
     "challengeLabel": "CHALLENGE:",
-    "impactLabel": "IMPACT:",
+    "impactLabel": "FOCUS:",
     "btnDemo": "DEMO",
     "btnCode": "CODE"
   },
