@@ -1,24 +1,26 @@
-import { useRef, useMemo } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import * as THREE from 'three';
+import { useRef, useMemo, useEffect } from "react";
+import { createPortal } from "react-dom";
+import { Canvas, useFrame } from "@react-three/fiber";
+import * as THREE from "three";
 
-const Stars = ({ count = 1500 }) => { // Reduced from 5000 for better performance
+const Stars = ({ count = 1500 }) => {
+  // Reduced from 5000 for better performance
   const points = useRef();
-  
+
   const particlesPosition = useMemo(() => {
     const positions = new Float32Array(count * 3);
     const colors = new Float32Array(count * 3);
-    
+
     for (let i = 0; i < count; i++) {
       // Random position in a large sphere
       const x = (Math.random() - 0.5) * 2000;
       const y = (Math.random() - 0.5) * 2000;
       const z = (Math.random() - 0.5) * 2000;
-      
+
       positions[i * 3] = x;
       positions[i * 3 + 1] = y;
       positions[i * 3 + 2] = z;
-      
+
       // Random neon color (cyan, pink, purple)
       const colorChoice = Math.random();
       if (colorChoice < 0.33) {
@@ -38,7 +40,7 @@ const Stars = ({ count = 1500 }) => { // Reduced from 5000 for better performanc
         colors[i * 3 + 2] = 1;
       }
     }
-    
+
     return { positions, colors };
   }, [count]);
 
@@ -78,16 +80,40 @@ const Stars = ({ count = 1500 }) => { // Reduced from 5000 for better performanc
 };
 
 const StarField = () => {
-  return (
+  // Create a container appended to document.body so the canvas is not affected
+  // by stacking contexts inside the React tree.
+  const containerId = "starfield-root";
+  let container = document.getElementById(containerId);
+  if (!container) {
+    container = document.createElement("div");
+    container.id = containerId;
+  }
+
+  useEffect(() => {
+    // Ensure the container is attached to body
+    if (!document.body.contains(container)) {
+      document.body.appendChild(container);
+    }
+
+    return () => {
+      // Cleanup the container when the component unmounts
+      if (document.body.contains(container)) {
+        document.body.removeChild(container);
+      }
+    };
+  }, [container]);
+
+  const content = (
     <div
       style={{
-        position: 'fixed',
+        position: "fixed",
         top: 0,
         left: 0,
-        width: '100%',
-        height: '100%',
+        width: "100%",
+        height: "100%",
+        // Keep it behind the app by default — App wrapper will get a higher z-index.
         // zIndex: 1,
-        pointerEvents: 'none',
+        pointerEvents: "none",
       }}
     >
       <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
@@ -95,6 +121,8 @@ const StarField = () => {
       </Canvas>
     </div>
   );
+
+  return createPortal(content, container);
 };
 
 export default StarField;

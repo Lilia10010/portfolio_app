@@ -33,7 +33,7 @@ function App() {
   //   }, []);
 
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div className="App" style={{ position: "relative", zIndex: 1 }}>
       {/* Global Visual Effects */}
       <StarField />
       <ScrollProgress />
